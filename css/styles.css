@@ -1,0 +1,73 @@
+body {
+  background-image: linear-gradient(to bottom right, #F53844, #42378F, #F53844, #42378F, #F53844, #42378F);
+  background-size: 4288px 2848px;
+  background-repeat: no-repeat;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1 {
+  padding-top: 40px;
+  color: #F9F9F9;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+}
+
+.img {
+  background-image: url("../images/road.jpg");
+  background-repeat: no-repeat, repeat;
+  background-size: 400px;
+  margin-top: 50px;
+  width: 400px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+img {
+  width: 80px;
+  height: 80px;
+  position: relative;
+  right: 140px;
+  top: 60px;
+  animation-name: animation;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+/* bus animation */
+@keyframes animation {
+  from {
+    left: -140px;
+  }
+
+  to {
+    left: 150px;
+  }
+}
+
+input {
+  border-radius: 10px;
+  height: 40px;
+  border: 1px;
+  width: 200px;
+  margin: 10px auto;
+  padding-left: 10px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+button {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+#OutputValue {
+  background-color: white;
+  margin-top: 40px;
+  border-radius: 10px;
+  width: 250px;
+  text-align: left;
+}
+
+.outputAfter {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
