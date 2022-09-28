@@ -28,7 +28,7 @@ function do_allocation(number_of_people, number_of_buses) {
   /* code below checks for conditions where number of buses is less than or eqaul to 3 and where number of
   people are less than or equal to 3*/
   if (number_of_buses == 0 && noOFPeople >= 0) {
-    output.push("Bus Number cannot be NULL");
+    output.push("Bus Number cannot be 0");
   } else if (number_of_buses >= 1 && noOFPeople == 0) {
     for (let j = 1; j <= number_of_buses; j++) {
       output.push("0 Person got into busNo-" + j);
